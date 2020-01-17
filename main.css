@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.one {
+    background: rgb(20, 20, 20);
+    padding: 65px 0px;
+    width: 100%;
+}
+
+.vlogo {
+    margin: 0px auto;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 195px;
+    height: 146.25px;
+}
+
+.ytpo {
+    padding: 80px 0px;
+    width: 100%;
+    background: rgb(56, 56, 56);
+}
+
+.center {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin: 0px 0px 90px 0px;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h3 {
+    margin: 0;
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.yell {
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 187, 0);
+}
+.yel {
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 187, 0);
+}
+
+.wow {
+    margin: 10px 0px 30px 0px;
+    font-size: 16px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wite {
+    padding: 7px 17px;
+    border: 2px solid white;
+    background: rgba(255, 255, 255, 0);
+    color: white;
+}
+.wite:hover {
+    cursor: pointer;
+    background: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.plans {
+    background: rgb(20, 20, 20);
+    padding: 80px 0px;
+}
+
+.minus  {
+    display: flex;
+    align-items: center;
+}
+
+.before {
+    margin-right: 15px;
+    width: 275px;
+    height: 2px;
+    background: rgb(122, 122, 122);
+}
+
+.dot    {
+    color: rgb(255, 187, 0);
+    font-size: 20px;
+}
+
+.after {
+    margin-left: 15px;
+    width: 275px;
+    height: 2px;
+    background: rgb(122, 122, 122);
+}
