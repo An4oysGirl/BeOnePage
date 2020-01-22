@@ -24,7 +24,7 @@ body {
 .ytpo {
   padding: 80px 0px;
   width: 100%;
-  background: rgb(56, 56, 56);
+  background: url("http://beonepage.betheme.me/wp-content/uploads/2016/02/subscribe-bg.jpg");
 }
 
 .center {
@@ -50,12 +50,12 @@ h3 {
 .yell {
   font-size: 48px;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(255, 187, 0);
+  color: rgb(255, 208, 0);
 }
 .yel {
   font-size: 33px;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(255, 187, 0);
+  color: rgb(255, 208, 0);
 }
 
 .wow {
@@ -96,7 +96,7 @@ h3 {
 }
 
 .dot {
-  color: rgb(255, 187, 0);
+  color: rgb(255, 208, 0);
   font-size: 20px;
 }
 
@@ -130,7 +130,7 @@ h4 {
   margin: 20px 105px 30px;
   width: 150px;
   height: 150px;
-  border: 2px solid rgb(255, 187, 0);
+  border: 2px solid rgb(255, 208, 0);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -139,7 +139,7 @@ h4 {
 }
 .price:hover {
   cursor: pointer;
-  background: rgb(255, 187, 0);
+  background: rgb(255, 208, 0);
   transition: 1s;
 }
 
@@ -155,19 +155,19 @@ h4 {
 .sale {
   font-size: 33px;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(255, 187, 0);
+  color: rgb(255, 208, 0);
 }
 
 .num {
   font-size: 46px;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(255, 187, 0);
+  color: rgb(255, 208, 0);
 }
 
 .dur {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(255, 187, 0);
+  color: rgb(255, 208, 0);
 }
 
 .plan {
@@ -185,7 +185,7 @@ h4 {
   margin: 0px auto 40px;
   width: 96px;
   height: 96px;
-  border: 2px solid rgb(255, 187, 0);
+  border: 2px solid rgb(255, 208, 0);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -194,7 +194,7 @@ h4 {
 
 .bir {
   font-size: 40px;
-  color: rgb(255, 187, 0);
+  color: rgb(255, 208, 0);
 }
 
 .five {
@@ -232,7 +232,7 @@ h4 {
 .six {
   width: 100%;
   padding: 80px 0px;
-  background: rgb(255, 187, 0);
+  background: rgb(255, 208, 0);
 }
 
 h5 {
@@ -268,19 +268,148 @@ h5 {
 }
 
 .flex {
-    display: flex;
-    
+  display: flex;
 }
 
-.img {
+.imgu {
   width: 25%;
   height: 357px;
+  position: relative;
 }
-.img img {
+.imgu img {
   width: 100%;
   height: 100%;
 }
-.img iframe {
+.imgu iframe {
   width: 100%;
   height: 100%;
+}
+.imgu:hover > .data .read {
+  cursor: pointer;
+  height: 71px;
+
+}
+
+.transition {
+  transition: 0.3s;
+}
+
+.imga {
+  width: 100%;
+  height: 100%;
+  background: rgb(39, 39, 39);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.imgu:hover > .imga .str {
+  font-size: 180px;
+  color: rgb(194, 194, 194);
+  transition: 0.3s;
+}
+
+.str {
+  font-size: 95px;
+  color: rgb(122, 122, 122);
+}
+
+.textt {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(238, 238, 238);
+}
+.imgu:hover > .imga .textt {
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.data {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.date {
+  width: 75px;
+  height: 71px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.number {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.mon {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+}
+
+.read {
+  width: 75px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 208, 0);
+}
+.p {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+}
+
+.meta {
+  width: 25%;
+  height: 84px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.g {
+margin: 20px 0px 0px 0px;
+font-size: 24px;
+}
+.gg {
+  margin: 5px 0px 0px 0px;
+  font-size: 16px;
+}
+
+
+.seven {
+  width: 100%;
+  background: url("http://beonepage.betheme.me/wp-content/uploads/2016/02/subscribe-bg.jpg");
+  padding: 80px 0px;
+}
+
+.email {
+  margin: 0px 0px 0px 300px;
+  width: 317px;
+  height: 48px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid white;
+}
+.yelloy {
+  height: 52px;
+  width: 140px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid rgb(255, 208, 0);
+  background: rgb(255, 208, 0);
+  color: white;
+  font-size: 18px;
+}
+
+.end {
+  width: 100%;
+  padding: 80px 0px;
+  background: rgb(17, 17, 17);
 }
